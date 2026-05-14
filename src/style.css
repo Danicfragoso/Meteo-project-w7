@@ -1,8 +1,15 @@
 body {
     background-color:#f9f7fe;
     font-family: "Work Sans", sans-serif;
-
 }
+a {
+    color: orange;
+    text-decoration: none;
+}
+p {
+        background: yellow;
+}
+
 .app {
     background: white;
     margin: 50px auto;
@@ -11,10 +18,14 @@ body {
     border-radius: 20px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
+header {
+    padding: 0 0 30px 0;
+}
 .search-form {
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 10px;
 }
 .form-input {
     background-color: #f9f7fe;
@@ -31,7 +42,32 @@ align-items: center;
     border: none;
     border-radius: 10px;
     padding: 10px;
-    
+}
+main {
+    padding: 30px 0;
 }
 
+.weather-city {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 0;
+}
+.weather-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-info {
+    font-size: 18px;
+}
+.temperature {
+    font-size: 40px;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+}
 
