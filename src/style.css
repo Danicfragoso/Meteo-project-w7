@@ -1,0 +1,14 @@
+body {
+    background-color:#f9f7fe;
+    font-family: "Work Sans", sans-serif;
+
+}
+.app {
+    background: white;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
